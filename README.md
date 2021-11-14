@@ -10,8 +10,8 @@ A challenging task in audiovisual emotion recognition is to implement neural net
 * Python 3.8.5
 * Pytorch 1.9.0
 * CUDA 10.2
-* 
-### Datasets Used
+
+### datasets used
 1. CREMA-D. Get access to the files here.
 2. MSP-IMPROV 
 
