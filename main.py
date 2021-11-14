@@ -7,10 +7,9 @@ from src import training
 
 print('Loading Corpus ...')
 
-
-train_location = '/home/lucas/Desktop/Journal/cremaorig/train_set.dt'
-test_location = '/home/lucas/Desktop/Journal/cremaorig/test_set.dt'
-develop_location = '/home/lucas/Desktop/Journal/cremaorig/develop_set.dt' 
+train_location = '/home/user/Desktop/AuxFormer/dataset/train_set.dt'
+test_location = '/home/user/Desktop/AuxFormer/dataset/test_set.dt'
+develop_location = '/home/user/Desktop/AuxFormer/dataset/develop_set.dt' 
 
 train_data = torch.load(train_location)
 test_data = torch.load(test_location)
