@@ -34,10 +34,12 @@ For more details make sure to visit these files to look at script arguments and 
 
 ### Running the Algorithm
 1. create folders for dataset location (save the downloaded data in 'dataset/') and model saving 
+
        ```
        mkdir dataset saved_models
        ```
 2. Execute main.py 
+
        ```
        python3 main.py [--FLAGS]
        ```
