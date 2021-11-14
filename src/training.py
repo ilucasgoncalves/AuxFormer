@@ -172,7 +172,7 @@ def train_model(settings, args, train_loader, valid_loader, test_loader):
         
         return labels
 
-    best_valid = 1e8
+    best_valid = 1e9
     for epoch in range(1, args.num_epochs+1):
         start = time.time()
         model_train(model, optimizer, criterion)
