@@ -6,16 +6,16 @@ A challenging task in audiovisual emotion recognition is to implement neural net
 
 ## Using model
 
-### dependencies
+### Dependencies
 * Python 3.8.5
 * Pytorch 1.9.0
 * CUDA 10.2
 
-### datasets used
+### Datasets Used
 1. CREMA-D. Get access to the files here.
 2. MSP-IMPROV 
 
-### scripts
+### Scripts
 For more details make sure to visit these files to look at script arguments and description:
 
 `AuxFormer/main.py ` main script to load the saved dataset files and input the model settings
