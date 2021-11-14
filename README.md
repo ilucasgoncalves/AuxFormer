@@ -18,11 +18,11 @@ A challenging task in audiovisual emotion recognition is to implement neural net
 ### Scripts
 For more details make sure to visit these files to look at script arguments and description:
 
-`AuxFormer/main.py ` main script to load the saved dataset files and input the model settings
+`AuxFormer/main.py ` - main script to load the saved dataset files and input the model settings
 
-`AuxFormer/src/dataset.py` dataset loader
+`AuxFormer/src/dataset.py` - dataset loader
 
-`AuxFormer/src/eval_metrics.py ` evaluation metrics for testing model (F1-Scores)
+`AuxFormer/src/eval_metrics.py ` - evaluation metrics for testing model (F1-Scores)
 
 `AuxFormer/src/models.py` - framework initialization and set-up
 
