@@ -26,7 +26,7 @@ class AUXFORMER(nn.Module):
         self.hidden_1 = 256
         self.hidden_2 = 512
         
-        combined_dim = 2*self.v
+        combined_dim = 2*self.d_v
 
         # 1D convolutional projection layers
         self.conv_1d_v = nn.Conv1d(self.v_dim, self.d_v, kernel_size=1, padding=0, bias=False)
