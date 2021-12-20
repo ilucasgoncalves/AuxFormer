@@ -41,6 +41,15 @@ For more details make sure to visit these files to look at script arguments and 
 
        `python3 main.py [--FLAGS]`
        
-       
+## Framework
+
+The AuxFormer framework, which consists of the main audiovisual fusion network (middle) labelled fav(•), the auxiliary acoustic
+network (top) labelled fa(•), and the auxiliary visual network (bottom) labelled fv(•).
+
+<p align="center">
+  <img src="./images/model.png" />
+</p>
+
+
 ## Acknowledgement
 Some portion of the code were adapted from the fairseq and yaohungt repo.
