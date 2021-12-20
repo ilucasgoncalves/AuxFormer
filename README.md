@@ -41,3 +41,6 @@ For more details make sure to visit these files to look at script arguments and 
 
        `python3 main.py [--FLAGS]`
        
+       
+## Acknowledgement
+Some portion of the code were adapted from the fairseq and yaohungt repo.
