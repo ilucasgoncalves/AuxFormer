@@ -15,7 +15,7 @@ Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emo
 * CUDA 10.2
 
 ### Datasets Used
-1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) Get access to the files here.
+1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
 2. [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
 
 ### Scripts
