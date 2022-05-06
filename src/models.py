@@ -42,13 +42,13 @@ class AUXFORMER(nn.Module):
         self.trans_v_with_a = self.transformer_arch(self_type='visual/audio', pos_emb = True)
         self.trans_a_with_v = self.transformer_arch(self_type='audio/visual', pos_emb = True)
        
-        # Projection layers
+        # Auxiliary networks linear layers
         self.proj_aux1 = nn.Linear(self.d_v, self.hidden_2)
         self.proj_aux2 = nn.Linear(self.hidden_2, self.hidden_1)
         self.proj_aux3 = nn.Linear(self.hidden_1, self.d_v)
         self.out_layer_aux = nn.Linear(self.d_v, output_dim)
         
-        # Projection layers
+        # Linear layers
         self.proj1 = nn.Linear(combined_dim, combined_dim)
         self.proj2 = nn.Linear(combined_dim, combined_dim)
         self.out_layer = nn.Linear(combined_dim, output_dim)
