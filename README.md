@@ -18,6 +18,12 @@ Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emo
 1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
 2. [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
 
+### Features
+* Access to features [here](https://drive.google.com/drive/folders/1EXd-RLwyzoplM8HtNmpwKu1BwavJRxpl?usp=sharing)
+Note: Download the features and enter the paths to where you saved the features locally in "main.py" lines 10,11, and 12.
+
+
+
 ### Scripts
 For more details make sure to visit these files to look at script arguments and description:
 
