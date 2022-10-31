@@ -83,25 +83,16 @@ class AVmodel(nn.Module):
         audio, and vision should have dimension [batch_size, seq_len, n_features]
         """     
         
-        # print(x_aud.size(), 'avmodel aud')
-        # print(x_vid.size(), 'avmodel vid')
+
         x_aud = x_aud.transpose(1, 2)
-        # print(x_aud)
         x_vid = x_vid.transpose(1, 2)
-        # print(x_vid)
-        # print(x_aud.size(), 'transpose aud')
-        # print(x_vid.size(), 'trasnpose vid')
+
 
        
         # 1-D Convolution visual/audio features
         proj_a_v = x_aud if self.a_dim == self.d_v else self.conv_1d_a(x_aud)
         proj_x_a = proj_a_v.permute(2, 0, 1)
         proj_x_v = x_vid.permute(2, 0, 1)
-
-        # print(proj_x_a.size(), '1DCONV transpose aud')
-        # print(proj_x_v.size(), '1DCONV transpose vid')
-
- 
   
         # Audio/Visual
         h_av = self.trans_a_with_v(proj_x_a, proj_x_v, proj_x_v)
