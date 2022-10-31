@@ -49,6 +49,7 @@ For more details make sure to visit these files to look at script arguments and 
        `mkdir dataset saved_models`
      
 2. Execute run_model.sh
+
        `conda activate AuxFormer_env`
        `bash run_model.sh`
        
