@@ -10,9 +10,11 @@ Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emo
 ## Using model
 
 ### Dependencies
-* Python 3.8.5
-* Pytorch 1.9.0
-* CUDA 10.2
+* Python 3.9.7
+* Pytorch 1.12.0
+* To create conda environment based on requirements use: conda install --name AuxFormer_env --file requirements.txt
+* Note: 'pip install transformers' is needed after creating env
+* Activate environment with: 'conda activate AuxFormer_env'
 
 ### Datasets Used
 1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
@@ -59,6 +61,3 @@ network (top) labelled fa(•), and the auxiliary visual network (bottom) labell
   <img src="./images/model.png" />
 </p>
 
-
-## Acknowledgement
-Some portion of the code were adapted from the fairseq and yaohungt repo.
