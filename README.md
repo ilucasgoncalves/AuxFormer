@@ -12,9 +12,9 @@ Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emo
 ### Dependencies
 * Python 3.9.7
 * Pytorch 1.12.0
-* To create conda environment based on requirements use: conda install --name AuxFormer_env --file requirements.txt
-* Note: 'pip install transformers' is needed after creating env
-* Activate environment with: 'conda activate AuxFormer_env'
+* To create conda environment based on requirements use: `conda install --name AuxFormer_env --file requirements.txt`
+* Note: `pip install transformers` is needed after creating env
+* Activate environment with: `conda activate AuxFormer_env`
 
 ### Datasets Used
 1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
@@ -48,9 +48,9 @@ For more details make sure to visit these files to look at script arguments and 
 
        `mkdir dataset saved_models`
      
-2. Execute main.py 
-
-       `python3 main.py [--FLAGS]`
+2. Execute run_model.sh
+       `conda activate AuxFormer_env`
+       `bash run_model.sh`
        
 ## Framework
 
