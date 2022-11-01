@@ -9,7 +9,7 @@ Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emo
 
 ## Using model
 
-## Update (10/31/2022)
+# Update (10/31/2022)
 Updated codes for easier implementation of the model and feature extracting. Releasing corpora partitions for experimental evaluations and features to be used. In this update, we are releasing the wav2vec2 features and EMOCA features version. Opensmile and VGG-Face features are being updated for upcoming release.
 
 ### Dependencies
