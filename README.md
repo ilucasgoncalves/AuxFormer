@@ -53,7 +53,7 @@ For more details make sure to visit these files to look at script arguments and 
    
    Folder should contain the following. CREMA-D example: `AuxFormer/data/Audios`, `AuxFormer/data/Videos`, `AuxFormer/data/labels_consensus_6class_X`
    
-1. If using wav2vec2 features. Download wav2vec2 model for audio feature extraction and place folder in `AuxFormer/wav2vec2-large-robust-finetunned'
+1. If using wav2vec2 features. Download wav2vec2 model for audio feature extraction and place folder in `AuxFormer/wav2vec2-large-robust-finetunned`
      
 2. Execute run_model.sh
 
