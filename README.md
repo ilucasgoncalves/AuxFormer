@@ -24,33 +24,36 @@ Updated codes for easier implementation of the model and feature extracting. Rel
 1. [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
 2. [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
 
-### Features
-* Access to features [here](https://drive.google.com/drive/folders/1EXd-RLwyzoplM8HtNmpwKu1BwavJRxpl?usp=sharing)
-Note: Download the features and enter the paths to where you saved the features locally in "main.py" lines 10,11, and 12.
+### Features & Partitions
+* Access to features/partitions [here](https://drive.google.com/drive/folders/1praR2Hwj1b70NQUPh8JC_pRvDJTPMx9t?usp=sharing)
+Note: Five pre-set partitions are provided using three different labelling methods P - plurality rule, M - majority rule, and D - distributional.
+The video features provided in this drive are [EMOCA](https://github.com/radekd91/emocafeatures) features. VGG-Face features to be uploaded.
 
 
 
 ### Scripts
 For more details make sure to visit these files to look at script arguments and description:
 
-`AuxFormer/main.py ` - main script to load the saved dataset files and input the model settings
+`AuxFormer/run_model.sh ` - main script with input setting and run/infer model
 
-`AuxFormer/src/dataset.py` - dataset loader
+`AuxFormer/utils` - utils folder containing loss manager, data_manager, feature extractor, normalizer, etc.
 
-`AuxFormer/src/eval_metrics.py ` - evaluation metrics for testing model (F1-Scores)
+`AuxFormer/config` - config files with information about datasets
 
-`AuxFormer/src/models.py` - framework initialization and set-up
+`AuxFormer/net` - model wrapper and Auxformer framework
 
-`AuxFormer/src/training.py ` - training script
+`AuxFormer/train.py ` - training script
 
-`AuxFormer/src/utils.py` - utils script to retrieve data, load saved models, and save trained models
+`AuxFormer/test.py` - inference script
 
 `AuxFormer/modules/` - folder containing tranformer framework and position_embedding configurations
 
 ### Running the Algorithm
-1. create folders for dataset location (save the downloaded data in 'dataset/') and model saving 
-
-       `mkdir dataset saved_models`
+1. Download dataset and data partitions specifications. Place data and partitions inside a folder called data like: `AuxFormer/data`
+   
+   Folder should contain the following. CREMA-D example: `AuxFormer/data/Audios`, `AuxFormer/data/Videos`, `AuxFormer/data/labels_consensus_6class_X`
+   
+1. If using wav2vec2 features. Download wav2vec2 model for audio feature extraction and place folder in `AuxFormer/wav2vec2-large-robust-finetunned'
      
 2. Execute run_model.sh
 
