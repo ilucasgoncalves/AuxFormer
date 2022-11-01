@@ -65,6 +65,12 @@ For more details make sure to visit these files to look at script arguments and 
 The AuxFormer framework, which consists of the main audiovisual fusion network (middle) labelled fav(•), the auxiliary acoustic
 network (top) labelled fa(•), and the auxiliary visual network (bottom) labelled fv(•).
 
+## If anything here has been useful. Please cite:
+
+Lucas Goncalves and Carlos Busso, "Robust audiovisual emotion recognition: Aligning modalities, capturing temporal information, and handling missing features," IEEE Transactions on Affective Computing, vol. early access, 2022.
+
+Lucas Goncalves and Carlos Busso, "AuxFormer: Robust approach to audiovisual emotion recognition," in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022), Singapore, May 2022. 
+
 <p align="center">
   <img src="./images/model.png" />
 </p>
