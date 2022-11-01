@@ -27,7 +27,7 @@ Updated codes for easier implementation of the model and feature extracting. Rel
 ### Features & Partitions
 * Access to features/partitions [here](https://drive.google.com/drive/folders/1praR2Hwj1b70NQUPh8JC_pRvDJTPMx9t?usp=sharing)
 Note: Five pre-set partitions are provided using three different labelling methods P - plurality rule, M - majority rule, and D - distributional.
-The video features provided in this drive are [EMOCA](https://github.com/radekd91/emocafeatures) features. VGG-Face features to be uploaded.
+The video features provided in this drive are [EMOCA](https://github.com/radekd91/emocafeatures) features. Audios can be obtained by directly downloading the [CREMA-D.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/)  dataset from source and processing the files with `AuxFormer/pre-processing/crema_auds.py`. VGG-Face features to be uploaded. 
 
 
 
